@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated at runtime: avatars and Anny/Warp caches
+var/
+
+# Frontend
+node_modules/
+dist/

@@ -1,0 +1,4 @@
+# Local npm cache (installs use --cache .npm-cache to stay inside this folder)
+.npm-cache/
+node_modules/
+dist/

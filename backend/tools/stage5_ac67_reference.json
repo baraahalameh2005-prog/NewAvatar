@@ -1,0 +1,347 @@
+{
+ "source": {
+  "local_changes_list": "D:\\BarahaAvatar_Experiment\\reference\\stageb\\controls.py (LIST)",
+  "ac67_results": "D:\\BarahaAvatar_Experiment\\outputs\\stage5_age_floor\\results_pass1.json (arm AC67)",
+  "fit_code": "D:\\BarahaAvatar_Experiment\\outputs\\stage5_age_floor\\age_floor_experiment.py exp_fit_s; outputs\\stage2\\adult_experiment.py",
+  "read": "2026-10-11"
+ },
+ "controls": [
+  "measure-bust-circ-incr",
+  "measure-waist-circ-incr",
+  "measure-hips-circ-incr"
+ ],
+ "control_limit": 0.6,
+ "control_offset": 1.0,
+ "age_min": 0.67,
+ "local_changes_list": [
+  "measure-bust-circ-incr",
+  "measure-underbust-circ-incr",
+  "measure-waist-circ-incr",
+  "measure-hips-circ-incr",
+  "measure-shoulder-dist-incr",
+  "measure-frontchest-dist-incr",
+  "measure-napetowaist-dist-incr",
+  "measure-waisttohip-dist-incr",
+  "measure-neck-circ-incr",
+  "measure-neck-height-incr",
+  "measure-upperarm-circ-incr",
+  "measure-upperarm-length-incr",
+  "measure-lowerarm-length-incr",
+  "measure-wrist-circ-incr",
+  "measure-thigh-circ-incr",
+  "measure-knee-circ-incr",
+  "measure-calf-circ-incr",
+  "measure-ankle-circ-incr",
+  "measure-upperleg-height-incr",
+  "measure-lowerleg-height-incr",
+  "torso-scale-horiz-incr",
+  "torso-scale-depth-incr",
+  "torso-scale-vert-incr",
+  "torso-vshape-incr",
+  "hip-scale-horiz-incr",
+  "hip-scale-depth-incr",
+  "hip-scale-vert-incr",
+  "buttocks-volume-incr",
+  "stomach-pregnant-incr",
+  "l-hand-scale-incr",
+  "r-hand-scale-incr",
+  "l-hand-fingers-length-incr",
+  "r-hand-fingers-length-incr",
+  "head-scale-horiz-incr",
+  "head-scale-vert-incr",
+  "head-scale-depth-incr",
+  "head-fat-incr",
+  "chin-width-incr",
+  "chin-height-incr",
+  "chin-prominent-incr",
+  "chin-bones-incr",
+  "l-cheek-bones-incr",
+  "r-cheek-bones-incr",
+  "l-cheek-volume-incr",
+  "r-cheek-volume-incr",
+  "forehead-scale-vert-incr",
+  "forehead-temple-incr",
+  "l-eye-scale-incr",
+  "r-eye-scale-incr",
+  "l-eye-trans-out",
+  "r-eye-trans-out",
+  "l-eye-trans-up",
+  "r-eye-trans-up",
+  "eyebrows-angle-up",
+  "eyebrows-trans-up",
+  "nose-scale-horiz-incr",
+  "nose-scale-vert-incr",
+  "nose-scale-depth-incr",
+  "nose-point-width-incr",
+  "nose-hump-incr",
+  "mouth-scale-horiz-incr",
+  "mouth-upperlip-volume-incr",
+  "mouth-lowerlip-volume-incr"
+ ],
+ "ac67": [
+  {
+   "case": "F1_162.6cm_50kg",
+   "age": 0.702328088203234,
+   "muscle": 0.6225219514208711,
+   "proportions": 0.6462637704863953,
+   "height_param": 0.372608161786687,
+   "weight_param": 0.37083982749397026,
+   "controls_exact": {
+    "bust": 0.08103209180003357,
+    "waist": 0.1537573523952136,
+    "hips": -0.24790133451085228
+   },
+   "accuracy": {
+    "height": {
+     "actual": 162.61236036454142,
+     "abs": 0.007639635458588145,
+     "pct": 0.004697844950552297
+    },
+    "weight": {
+     "actual": 49.989916552484345,
+     "abs": 8.344751565658726e-05,
+     "pct": 0.00016692841699657383
+    },
+    "waist": {
+     "actual": 71.75723080371404,
+     "abs": 0.042769196285959765,
+     "pct": 0.05956712574646207
+    },
+    "chest": {
+     "actual": 86.6973682097743,
+     "abs": 0.09736820977430227,
+     "pct": 0.11243442237217353
+    },
+    "hip": {
+     "actual": 92.21350860878997,
+     "abs": 0.06350860878995945,
+     "pct": 0.06891872901786159
+    }
+   },
+   "glb_sha256": "ba87d54c1704875d31fb0bc23c05a428c4b631d4901153281ddd9f111026881a",
+   "seconds": 16.408428599999752,
+   "shape_evals": 50,
+   "stop": "all targets within tolerance"
+  },
+  {
+   "case": "F2_165cm_60kg",
+   "age": 0.7554163723651157,
+   "muscle": 0.6974732646846484,
+   "proportions": 0.6034825772030309,
+   "height_param": 0.37824699174422405,
+   "weight_param": 0.8995326662618824,
+   "controls_exact": {
+    "bust": 0.01219042932453207,
+    "waist": 0.022548201770628884,
+    "hips": 0.015801799110048975
+   },
+   "accuracy": {
+    "height": {
+     "actual": 165.0,
+     "abs": 0.0,
+     "pct": 0.0
+    },
+    "weight": {
+     "actual": 59.98580844927013,
+     "abs": 0.014191550729869107,
+     "pct": 0.023652584549781846
+    },
+    "waist": {
+     "actual": 74.83517823568123,
+     "abs": 0.8351782356812265,
+     "pct": 1.128619237407063
+    },
+    "chest": {
+     "actual": 94.49041931768711,
+     "abs": 4.490419317687113,
+     "pct": 4.989354797430126
+    },
+    "hip": {
+     "actual": 100.32866581679372,
+     "abs": 2.328665816793716,
+     "pct": 2.37618960897318
+    }
+   },
+   "glb_sha256": "0afec79faed7c8b54350107f2375dad2e2286bb65b1afeb008c5e74e04aeb8b9",
+   "seconds": 15.080232100000103,
+   "shape_evals": 28,
+   "stop": "optimizer converged"
+  },
+  {
+   "case": "F3_160cm_75kg",
+   "age": 0.6700000000000002,
+   "muscle": 0.6417901068858596,
+   "proportions": 0.9989988206424489,
+   "height_param": 0.35199543623544916,
+   "weight_param": 0.999,
+   "controls_exact": {
+    "bust": 0.5999984628331547,
+    "waist": 0.59999927730637,
+    "hips": 0.5999999982066051
+   },
+   "accuracy": {
+    "height": {
+     "actual": 160.0000288853202,
+     "abs": 2.888532020506318e-05,
+     "pct": 1.8053325128164488e-05
+    },
+    "weight": {
+     "actual": 68.06245020414055,
+     "abs": 6.937549795859454,
+     "pct": 9.250066394479271
+    },
+    "waist": {
+     "actual": 85.27693666564679,
+     "abs": 2.7230633343532133,
+     "pct": 3.094390152674106
+    },
+    "chest": {
+     "actual": 104.26526420732839,
+     "abs": 0.26526420732838574,
+     "pct": 0.2550617378157555
+    },
+    "hip": {
+     "actual": 111.84319336724602,
+     "abs": 0.15680663275398388,
+     "pct": 0.14000592210177132
+    }
+   },
+   "glb_sha256": "66dad6fdaa8a63b96909a405968861ba58e24fbef73b25d8aea1d1eb7358daee",
+   "seconds": 40.49246289999974,
+   "shape_evals": 134,
+   "stop": "optimizer converged"
+  },
+  {
+   "case": "M1_170cm_60kg",
+   "age": 0.6716027228281416,
+   "muscle": 0.4987722100672944,
+   "proportions": 0.6030995755427719,
+   "height_param": 0.30888765535901075,
+   "weight_param": 0.4996614608688487,
+   "controls_exact": {
+    "bust": -0.5758439403453546,
+    "waist": -0.4298167229165638,
+    "hips": -0.4810130758847664
+   },
+   "accuracy": {
+    "height": {
+     "actual": 169.99999999999997,
+     "abs": 2.842170943040401e-14,
+     "pct": 1.6718652606120005e-14
+    },
+    "weight": {
+     "actual": 60.000925817790694,
+     "abs": 0.0009258177906943388,
+     "pct": 0.0015430296511572314
+    },
+    "waist": {
+     "actual": 77.60128127857537,
+     "abs": 3.601281278575371,
+     "pct": 4.8665963223991495
+    },
+    "chest": {
+     "actual": 92.34720132061186,
+     "abs": 4.347201320611859,
+     "pct": 4.940001500695295
+    },
+    "hip": {
+     "actual": 95.19811668498816,
+     "abs": 5.198116684988165,
+     "pct": 5.7756852055424055
+    }
+   },
+   "glb_sha256": "7c5739cfd45fed3551f55ab26bae57ae76fde7722dcb029f6906c3d3e7617d41",
+   "seconds": 30.142828500000178,
+   "shape_evals": 106,
+   "stop": "optimizer converged"
+  },
+  {
+   "case": "M2_175cm_72kg",
+   "age": 0.6767000000000002,
+   "muscle": 0.961975659928143,
+   "proportions": 0.5413377730941511,
+   "height_param": 0.35258506432819536,
+   "weight_param": 0.7179255622430886,
+   "controls_exact": {
+    "bust": -0.5999801604254318,
+    "waist": -0.5999447736207901,
+    "hips": -0.4704910963595813
+   },
+   "accuracy": {
+    "height": {
+     "actual": 175.00096955910246,
+     "abs": 0.0009695591024581063,
+     "pct": 0.0005540337728332036
+    },
+    "weight": {
+     "actual": 71.99974695688024,
+     "abs": 0.0002530431197556027,
+     "pct": 0.00035144877743833704
+    },
+    "waist": {
+     "actual": 81.90508347328715,
+     "abs": 0.09491652671285067,
+     "pct": 0.11575186184493984
+    },
+    "chest": {
+     "actual": 96.10537898800398,
+     "abs": 0.10537898800397727,
+     "pct": 0.10976977917080966
+    },
+    "hip": {
+     "actual": 98.03848986267518,
+     "abs": 0.03848986267517773,
+     "pct": 0.039275370076711974
+    }
+   },
+   "glb_sha256": "9c2752030ae052244b3d88c33605df20eef8a7b91b8d3cba699584153813f680",
+   "seconds": 18.812992200000735,
+   "shape_evals": 65,
+   "stop": "all targets within tolerance"
+  },
+  {
+   "case": "M3_182cm_88kg",
+   "age": 0.6797382137703184,
+   "muscle": 0.8343512750167794,
+   "proportions": 0.5895362255464031,
+   "height_param": 0.41565353886157824,
+   "weight_param": 0.8878163713347413,
+   "controls_exact": {
+    "bust": -0.2658794861456242,
+    "waist": -0.03020001867825295,
+    "hips": -0.4320806556084663
+   },
+   "accuracy": {
+    "height": {
+     "actual": 181.99233091985397,
+     "abs": 0.007669080146030183,
+     "pct": 0.004213780300016584
+    },
+    "weight": {
+     "actual": 87.99899130673509,
+     "abs": 0.0010086932649073788,
+     "pct": 0.0011462423464856577
+    },
+    "waist": {
+     "actual": 91.94347780887868,
+     "abs": 0.05652219112131718,
+     "pct": 0.06143716426230128
+    },
+    "chest": {
+     "actual": 106.02583498596086,
+     "abs": 0.02583498596085576,
+     "pct": 0.024372628264958264
+    },
+    "hip": {
+     "actual": 104.1225951487908,
+     "abs": 0.12259514879079347,
+     "pct": 0.11787995076037834
+    }
+   },
+   "glb_sha256": "5d789a257abef4d0f2cb4f64165d525abd982d788709b81875e2861a9f24a3f5",
+   "seconds": 25.437642699999742,
+   "shape_evals": 80,
+   "stop": "all targets within tolerance"
+  }
+ ]
+}

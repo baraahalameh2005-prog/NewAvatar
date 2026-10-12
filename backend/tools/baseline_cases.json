@@ -1,0 +1,263 @@
+{
+ "source": "D:\\BarahaAvatar_Experiment\\baseline\\baseline_results.json (read 2026-10-11; recorded by baseline/capture_baseline.py)",
+ "cases": [
+  {
+   "case": "F1_162.6cm_50kg",
+   "input": {
+    "gender": "female",
+    "height_cm": 162.62,
+    "weight_kg": 49.99,
+    "waist_cm": 71.8,
+    "chest_cm": 86.6,
+    "hip_cm": 92.15
+   },
+   "parameters": {
+    "gender": "female",
+    "height": 0.49921281656252636,
+    "weight": 0.6038629202198382,
+    "age": 0.5503001607978093,
+    "muscle": 0.6508294748576264,
+    "proportions": 0.6158732269496965
+   },
+   "glb_sha256": "759f27fa5109541b007dda9ec9202c9b9ea8af57c0236c31d464cf5f6a154321",
+   "measurements": {
+    "height_m": 1.626103045699916,
+    "mass_kg": 49.98994138504359,
+    "bmi": 18.905427443757443,
+    "waist_m": 0.6992153961635923,
+    "waist_width_m": 0.26068690056048294,
+    "chest_m": 0.8648661588377526,
+    "chest_width_m": 0.30431704770418205,
+    "hip_m": 0.9400705117797918,
+    "hip_width_m": 0.34123277848509653,
+    "neck_m": 0.3197791920811873,
+    "upper_arm_m": 0.28537945670313064,
+    "forearm_m": 0.22153385239582324,
+    "thigh_m": 0.4414874840388759,
+    "thigh_left_m": 0.4312189327675791,
+    "thigh_right_m": 0.45175603531017267,
+    "calf_m": 0.3359227360247121,
+    "calf_left_m": 0.3343032041516699,
+    "calf_right_m": 0.3375422678977543,
+    "shoulder_width_m": 0.306049252483193,
+    "arm_length_m": 0.4392545482356646,
+    "leg_length_m": 0.781858317834486
+   }
+  },
+  {
+   "case": "F2_165cm_60kg",
+   "input": {
+    "gender": "female",
+    "height_cm": 165.0,
+    "weight_kg": 60.0,
+    "waist_cm": 74.0,
+    "chest_cm": 90.0,
+    "hip_cm": 98.0
+   },
+   "parameters": {
+    "gender": "female",
+    "height": 0.5236544954343803,
+    "weight": 0.999,
+    "age": 0.5512520882581351,
+    "muscle": 0.7040657858899624,
+    "proportions": 0.782589175765113
+   },
+   "glb_sha256": "e8d40d769c801db16282ae8674b9b3539b7fc69ac0753f7d7f5be7e085fecba4",
+   "measurements": {
+    "height_m": 1.65,
+    "mass_kg": 58.89241367306007,
+    "bmi": 21.63174055943437,
+    "waist_m": 0.7464509683390361,
+    "waist_width_m": 0.2809740117495348,
+    "chest_m": 0.9154054300183732,
+    "chest_width_m": 0.3023695274619696,
+    "hip_m": 0.9774244461522739,
+    "hip_width_m": 0.3538068127664236,
+    "neck_m": 0.49305147336873395,
+    "upper_arm_m": 0.33706835909577576,
+    "forearm_m": 0.25483105723475874,
+    "thigh_m": 0.48845898507139207,
+    "thigh_left_m": 0.4774578526141954,
+    "thigh_right_m": 0.4994601175285888,
+    "calf_m": 0.3596438222769739,
+    "calf_left_m": 0.3568741241967976,
+    "calf_right_m": 0.36241352035715013,
+    "shoulder_width_m": 0.30765945857199106,
+    "arm_length_m": 0.4441731519474004,
+    "leg_length_m": 0.7924291889462397
+   }
+  },
+  {
+   "case": "F3_160cm_75kg",
+   "input": {
+    "gender": "female",
+    "height_cm": 160.0,
+    "weight_kg": 75.0,
+    "waist_cm": 88.0,
+    "chest_cm": 104.0,
+    "hip_cm": 112.0
+   },
+   "parameters": {
+    "gender": "female",
+    "height": 0.35073804740816056,
+    "weight": 0.999,
+    "age": 0.6619380080949888,
+    "muscle": 0.24531115779861742,
+    "proportions": 0.5399288657994842
+   },
+   "glb_sha256": "c2048b450acd87fd60e50a4f422e96004f1223927344ec9cf2e869ccdc9597a9",
+   "measurements": {
+    "height_m": 1.6,
+    "mass_kg": 70.26534004059008,
+    "bmi": 27.447398453355493,
+    "waist_m": 0.9414526860728092,
+    "waist_width_m": 0.32545345348190763,
+    "chest_m": 0.9926355085743608,
+    "chest_width_m": 0.3309029115164255,
+    "hip_m": 1.1089900588271389,
+    "hip_width_m": 0.41257248999347623,
+    "neck_m": 0.42252758287896314,
+    "upper_arm_m": 1.5344323043154002,
+    "forearm_m": 0.25962263569660915,
+    "thigh_m": 0.5527656366098939,
+    "thigh_left_m": 0.5418592928203458,
+    "thigh_right_m": 0.5636719803994418,
+    "calf_m": 0.39688174057431164,
+    "calf_left_m": 0.3955978902974119,
+    "calf_right_m": 0.3981655908512114,
+    "shoulder_width_m": 0.31444756253253064,
+    "arm_length_m": 0.4291699971207033,
+    "leg_length_m": 0.7528057490453727
+   }
+  },
+  {
+   "case": "M1_170cm_60kg",
+   "input": {
+    "gender": "male",
+    "height_cm": 170.0,
+    "weight_kg": 60.0,
+    "waist_cm": 74.0,
+    "chest_cm": 88.0,
+    "hip_cm": 90.0
+   },
+   "parameters": {
+    "gender": "male",
+    "height": 0.513709402176529,
+    "weight": 0.5844540224218424,
+    "age": 0.5000021564763586,
+    "muscle": 0.9911077202735059,
+    "proportions": 0.5287085756112525
+   },
+   "glb_sha256": "874379f4574576c64eebb1bf899e4776564cad9f2cd7b33419339fa283c69a9d",
+   "measurements": {
+    "height_m": 1.6999994684958146,
+    "mass_kg": 59.99268740771833,
+    "bmi": 20.758728346403412,
+    "waist_m": 0.8002109694190211,
+    "waist_width_m": 0.3032838692705025,
+    "chest_m": 0.9435863047119621,
+    "chest_width_m": 0.3228053199443755,
+    "hip_m": 0.9350797698014969,
+    "hip_width_m": 0.339711083810466,
+    "neck_m": 0.8900628227172975,
+    "upper_arm_m": 0.3392629650790848,
+    "forearm_m": 0.23675947266735126,
+    "thigh_m": 0.4729975022674741,
+    "thigh_left_m": 0.46489931071788415,
+    "thigh_right_m": 0.4810956938170641,
+    "calf_m": 0.36128824180460295,
+    "calf_left_m": 0.3529395730777523,
+    "calf_right_m": 0.36963691053145364,
+    "shoulder_width_m": 0.3469594165784425,
+    "arm_length_m": 0.47330670127911845,
+    "leg_length_m": 0.8327180365259687
+   }
+  },
+  {
+   "case": "M2_175cm_72kg",
+   "input": {
+    "gender": "male",
+    "height_cm": 175.0,
+    "weight_kg": 72.0,
+    "waist_cm": 82.0,
+    "chest_cm": 96.0,
+    "hip_cm": 98.0
+   },
+   "parameters": {
+    "gender": "male",
+    "height": 0.5628624791113692,
+    "weight": 0.999,
+    "age": 0.5000000000000003,
+    "muscle": 0.723481591709953,
+    "proportions": 0.6245409415287103
+   },
+   "glb_sha256": "bb8247a0e6064551ea8ea6c1a488b293828b41057ef98a67285d01c03907a433",
+   "measurements": {
+    "height_m": 1.7499999999999964,
+    "mass_kg": 71.58378850143131,
+    "bmi": 23.374298286181748,
+    "waist_m": 0.8595790070508452,
+    "waist_width_m": 0.32606194899325414,
+    "chest_m": 0.9980865026640526,
+    "chest_width_m": 0.33939983538718066,
+    "hip_m": 1.0041058108571101,
+    "hip_width_m": 0.3608546239672904,
+    "neck_m": 1.16956737125807,
+    "upper_arm_m": 1.3852797604710114,
+    "forearm_m": 0.26279066886763225,
+    "thigh_m": 0.5111183003448286,
+    "thigh_left_m": 0.5033597537762411,
+    "thigh_right_m": 0.5188768469134162,
+    "calf_m": 0.39631354267241226,
+    "calf_left_m": 0.3883542355906651,
+    "calf_right_m": 0.40427284975415934,
+    "shoulder_width_m": 0.34715234639597675,
+    "arm_length_m": 0.48803281354105477,
+    "leg_length_m": 0.8593985650195536
+   }
+  },
+  {
+   "case": "M3_182cm_88kg",
+   "input": {
+    "gender": "male",
+    "height_cm": 182.0,
+    "weight_kg": 88.0,
+    "waist_cm": 92.0,
+    "chest_cm": 106.0,
+    "hip_cm": 104.0
+   },
+   "parameters": {
+    "gender": "male",
+    "height": 0.5155335537312804,
+    "weight": 0.8992175619455517,
+    "age": 0.5879966719973106,
+    "muscle": 0.9989999966563743,
+    "proportions": 0.873921837964899
+   },
+   "glb_sha256": "ae61d69ee400ee52430a15d023b2cb23822d32ddcc0e182afd27b4e74f5c9233",
+   "measurements": {
+    "height_m": 1.82,
+    "mass_kg": 87.999872516328,
+    "bmi": 26.56680126685424,
+    "waist_m": 0.9085882563432952,
+    "waist_width_m": 0.3529886972785758,
+    "chest_m": 1.0625671277632216,
+    "chest_width_m": 0.34360297858333483,
+    "hip_m": 1.0583706743461798,
+    "hip_width_m": 0.3787763123247187,
+    "neck_m": 1.4108392067955147,
+    "upper_arm_m": 1.3738413286360058,
+    "forearm_m": 0.3243300765501968,
+    "thigh_m": 0.5810263055232794,
+    "thigh_left_m": 0.5706089223622947,
+    "thigh_right_m": 0.591443688684264,
+    "calf_m": 0.43337210348533517,
+    "calf_left_m": 0.4203935122304417,
+    "calf_right_m": 0.4463506947402287,
+    "shoulder_width_m": 0.3480918185164265,
+    "arm_length_m": 0.5157064130023994,
+    "leg_length_m": 0.887040667675054
+   }
+  }
+ ]
+}
